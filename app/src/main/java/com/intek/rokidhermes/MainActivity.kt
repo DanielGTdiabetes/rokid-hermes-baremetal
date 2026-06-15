@@ -92,6 +92,6 @@ class MainActivity : Activity() {
 
     companion object {
         private const val TAG = "RokidHermes"
-        private const val HEALTH_URL = "http://192.168.0.234:8642/health"
+        private const val HEALTH_URL = "http://192.168.0.234:8080/health"
     }
 }
