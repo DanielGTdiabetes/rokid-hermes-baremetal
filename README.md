@@ -41,7 +41,7 @@ adb shell monkey -p com.intek.rokidhermes 1
 ## Test endpoint
 
 ```text
-http://192.168.0.234:8642/health
+http://192.168.0.234:8080/health
 ```
 
 Tap **Probar Hermes** in the app. A successful HTTP 200 response shows **Hermes conectado**. Any other HTTP response or network failure shows a clear error message.
